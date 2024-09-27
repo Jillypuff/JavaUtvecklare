@@ -1,0 +1,7 @@
+Resultatet av 1000 rullade tärningar är
+1: 164
+2: 170
+3: 168
+4: 171
+5: 138
+6: 189
