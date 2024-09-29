@@ -34,10 +34,10 @@ public class MathProblemBuilder {
                 secondDigit += random.nextInt(10);
             }
         }
-        if (operator == '%' || firstDigit < secondDigit) {
-            int temp = firstDigit;
-            firstDigit = secondDigit;
-            secondDigit = temp;
+        if (operator == '%' && firstDigit < secondDigit) {
+            firstDigit = firstDigit ^ secondDigit;
+            secondDigit = firstDigit ^ secondDigit;
+            firstDigit = firstDigit ^ secondDigit;
         }
         String prompt = firstDigit + " " + operator + " " + secondDigit;
         int solution = getSolution(operator, firstDigit, secondDigit);
