@@ -1,2 +1,2 @@
 # JavaUtvecklare
-Storing all projects that I create during my 2 years studies as Java Utvecklare (Java developer).
+All my code during the first course Java Utvecklare
